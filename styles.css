@@ -1,0 +1,61 @@
+/* Fondo con degradado suave */
+body {
+  background: linear-gradient(to bottom, #c4436e, #f9f9f9);
+  font-family: 'Segoe UI', sans-serif;
+}
+
+/* Encabezado con degradado vibrante */
+header {
+  background: linear-gradient(90deg, #ff416c, #ff4b2b); /* rosado fuerte a naranja */
+  color: rgb(151, 9, 146);
+  padding: 25px 0;
+  box-shadow: 0 4px 8px rgba(0,0,0,0.3);
+}
+
+/* Título principal */
+h1 {
+  font-size: 2.8rem;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+/* Navegación */
+nav .nav-link {
+  color: hsl(313, 55%, 75%);
+  margin: 0 15px;
+  font-weight: 500;
+  font-size: 1.1rem;
+}
+
+nav .nav-link:hover {
+  color: #ffe6f0;
+  text-decoration: underline;
+}
+
+/* Carrusel ajustado: mostrar imagen completa */
+.carousel img {
+  width: 100%;
+  max-height: 400px;
+  object-fit: contain;
+  border-radius: 10px;
+  background-color: rgb(246, 235, 242);
+}
+
+/* Botón de alerta más llamativo */
+.btn-warning {
+  background-color: #ff69b4;
+  border: none;
+  font-weight: bold;
+  color: white;
+  transition: 0.3s;
+}
+
+.btn-warning:hover {
+  background-color: #e60073;
+  transform: scale(1.05);
+}
+
+/* Footer más pequeño */
+footer {
+  font-size: 0.9rem;
+}
